@@ -8,16 +8,16 @@ $ firebase login
 $ firebase init functions
 ```
 
-# Debugging
-
-```
-$ firebase emulators:start
-$ cd functions && npm run build
-```
-
 # Deployment
 
 ```
 $ firebase deploy --only functions
 $ firebase functions::log
+```
+
+# Development
+
+```
+$ firebase emulators:start
+$ cd functions && npm run build
 ```
